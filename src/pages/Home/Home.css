@@ -1,0 +1,119 @@
+::-webkit-scrollbar-button {
+  display: none;
+  height: 13px;
+  border-radius: 0;
+  background-color: #ff80ff;
+}
+
+::-webkit-scrollbar-button:hover {
+  background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(65, 64, 78, 0.7);
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #41404e;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+.films {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4em;
+}
+
+.remove {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  text-align: center;
+  right: -10px;
+  top: -10px;
+  color: #DC1A28;
+  cursor: pointer;
+}
+
+.logo {
+  margin-top: 2em;
+}
+
+.pov {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50% !important;
+}
+
+.povCard {
+  margin: 15px;
+  width: 11rem;
+}
+
+.no-pov {
+  width: 10rem;
+  height: 350px;
+  margin: 7px;
+}
+
+footer {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #DC1A28;
+  height: 50px;
+  width: 100%;
+  font-size: 0.9em;
+  color: #f5f6fa;
+}
+footer a {
+  text-decoration: none;
+  color: #f5f6fa;
+  transition: 0.2s;
+}
+footer a:hover {
+  color: #f5f6fa;
+}
+
+.footer-infos {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.comet {
+  padding: 10px;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.comet:hover {
+  background-color: #b21a24;
+  transition: 0.3s;
+}
+
+.comet-img {
+  width: 80px;
+  height: 100%;
+}
+
+/*# sourceMappingURL=Home.css.map */
